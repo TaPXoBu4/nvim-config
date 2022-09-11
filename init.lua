@@ -8,3 +8,4 @@ local map = vim.api.nvim_set_keymap
 local default_opts = {noremap = false, silent = true}
 
 map('i', '<Tab>', '<C-y>', default_opts)
+map('n', '<C-t>', ':NERDTreeToggle<CR>', default_opts)
